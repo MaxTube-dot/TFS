@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Levin.TfsUpdater.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Levin.TfsUpdater.Core">
+      <HintPath>..\Levin.TfsUpdater.Core\bin\Debug\Levin.TfsUpdater.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
